@@ -49,6 +49,6 @@ sections near the top and bottom of the output z-stack are indistinguishable fro
 close to the center of the input stack. At the same time, the output does not introduce new cellular structures.
 
 **Note:** <br />
-or a detailed explanation of the principles and implementation, please refer to the [ZSE GAN] and resources provided by the authors:
+For a detailed explanation of the principles and implementation, please refer to the [ZSE GAN](https://github.com/keerfish/ZSE-GAN/blob/main/ZSE_GAN.pdf). This method was developed in collaboration with my colleagues Timo Dickscheid and Eric Upschult as part of a submission created three years ago. The well-crafted and professional introduction was written by Timo, while Eric provided significant support for the idea and discussions. I completed the remaining sections and coding. Ultimately, I convinced Timo and Eric to forgo submitting the paper because I was dissatisfied with the quantitative analysis, which lacked strong and solid theoretical support.  
 
 
