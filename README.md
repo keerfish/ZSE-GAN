@@ -32,4 +32,9 @@ $x_{\Vert}$ and $`G_B(y)_{\Vert}`$, whereas $D_S$ works analogously for the imag
 
 The textural properties of the vertical cross-sections and horizontal sections of the output z-stack are indistinguishable from those of the horizontal sections close to the center of the input stack. The cellular structures are overall consistent.
 
+### Input Image Stack
+Cross sections of an input image stack $x$:
+### Input Image Volume
+Cross sections of the corresponding output volumetric image $G_S(x)$:
+
 
