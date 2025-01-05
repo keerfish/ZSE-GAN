@@ -44,4 +44,8 @@ Cross sections of the corresponding output volumetric image $G_S(x)$:
   <img src="https://github.com/keerfish/ZSE-GAN/blob/main/imgs/cross_y.jpg" align="center" width="500px"/>
 </p>
 
+The ZSE-GAN modifies image intensities of the z-stack such that the textural properties of the vertical cross-sections and horizontal
+sections near the top and bottom of the output z-stack are indistinguishable from those of the horizontal sections
+close to the center of the input stack. At the same time, the output does not introduce new cellular structures.
+
 
