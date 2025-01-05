@@ -20,8 +20,7 @@ Z-stack image enhancement here is inspired by Conditional Generative Adversarial
 ## ZSE-GAN (Z-Stack Enhancement GAN)
 The goal is to translate an image stack sample $x$ from an image set of z-scan stacks to the desired sharp
 volumetric image $y$. The cross-sections of $y$ have a sharpness similar to that of the in-focus image. The model
-includes two 3D translators $G_S$ and $G_B$, as well as two 2D discriminators, $D_S$ and $D_B$. The horizontal and vertical cross-sectional images of an image stack sample $x$ are denoted by $x_{\Vert}$ and 𝒙$, as well as those of a
-transformed sample 𝑮𝒔(𝒙) are denoted by 𝑮𝒔(𝒙)∥ and 𝑮𝒔(𝒙)$, respectively.
-𝒙∥
-⋆ comes from the in-focus image slices of an image stack 𝒙.
+includes two 3D translators $G_S$ and $G_B$, as well as two 2D discriminators, $D_S$ and $D_B$. The horizontal cross-sectional image of an image stack sample $x$ is denoted by $x_{\Vert}$. The horizontal and vertical cross-sectional images of an image stack sample $y$ are denoted by $y_{\Vert}$ and $y_{\perp}$, as well as those of a transformed sample $G_B(y)$ are denoted by $`G_B(y)_{\Vert}`$ and $`G_B(y)_{\perp}`$. $D_B$ aims to differentiate between images
+$x_{\Vert}$ and $`G_B(y)_{\Vert}`$, whereas $D_S$ works analogously for the images $y_{\Vert}$, $y_{\perp}$ and image $`y^*`$ , where $`y^*`$ is drawn from the 2D in-focus images scanned from the focal plane. The architecture of the ZSE-GAN network is illustrated below. 
+
 
