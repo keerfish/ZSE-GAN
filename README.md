@@ -52,7 +52,7 @@ close to the center of the input stack. At the same time, the output does not in
 For a detailed explanation of the principles and implementation, please refer to the [ZSE GAN](https://github.com/keerfish/ZSE-GAN/blob/main/ZSE_GAN.pdf). This method was developed in collaboration with my colleagues Timo Dickscheid and Eric Upschult as part of a submission created three years ago. The well-crafted and professional introduction was written by Timo, while Eric provided valuable support for the idea and discussions. I completed the remaining sections and the coding. Ultimately, I persuaded Timo and Eric not to submit the paper, as I was dissatisfied with the quantitative analysis, which lacked clear, strong, and solid theoretical support. 
 
 ## Acknowledgments
-The code is heavily adopted from [pix2pix](https://github.com/phillipi/pix2pix), and [DCGAN](https://github.com/soumith/dcgan.torch). The idea is inspired by[CycleGAN](https://github.com/junyanz/CycleGAN/tree/master).
+The code is heavily adopted from [pix2pix](https://github.com/phillipi/pix2pix), and [DCGAN](https://github.com/soumith/dcgan.torch). The idea of ZSE-GAN is inspired by [CycleGAN](https://github.com/junyanz/CycleGAN/tree/master).
 
 ## References
 <a id="1">[1]</a>
