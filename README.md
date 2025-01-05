@@ -49,6 +49,6 @@ sections near the top and bottom of the output z-stack are indistinguishable fro
 close to the center of the input stack. At the same time, the output does not introduce new cellular structures.
 
 **Note:** <br />
-For detailed 
+or a detailed explanation of the principles and implementation, please refer to the [ZSE GAN] and resources provided by the authors:
 
 
