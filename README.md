@@ -12,7 +12,7 @@ Z-stack scanning captures a series of 2D images for each individual physical tis
 *S_26* to *S_29* are images taken by focusing below the brain slice.<br />
 *S_14*, *S_15*, and *S_16* are sharp in-focus images.
 
-Z-stack image enhancement here is inspired by Conditional Generative Adversarial Networks, which was implemented for collection style transfer, object transfiguration, season transfer, photo enhancement, etc. Because the ground truth and the true sharp volumetric image were not available, the classical GAN (e.g., Cycle-Consistent Adversarial Networks shown below) was not a proper method for the image stack enhancement problem. The z-stack image enhancement here formulated the loss and performed the training based on 2D image patches, while the network learned to perform an intensity transformation of volumetric 3D patches.
+Z-stack image enhancement here is inspired by Conditional Generative Adversarial Networks[[1]](#1), which was implemented for collection style transfer, object transfiguration, season transfer, photo enhancement, etc. Because the ground truth and the true sharp volumetric image were not available, the classical GAN (e.g., Cycle-Consistent Adversarial Networks shown below) was not a proper method for the image stack enhancement problem. The z-stack image enhancement here formulated the loss and performed the training based on 2D image patches, while the network learned to perform an intensity transformation of volumetric 3D patches.
 
 <p align="center">
   <img src="https://github.com/keerfish/ZSE-GAN/blob/main/imgs/architecture_CNN.jpg" align="center" width="500px"/>
@@ -50,5 +50,14 @@ close to the center of the input stack. At the same time, the output does not in
 
 ## Important Information
 For a detailed explanation of the principles and implementation, please refer to the [ZSE GAN](https://github.com/keerfish/ZSE-GAN/blob/main/ZSE_GAN.pdf). This method was developed in collaboration with my colleagues Timo Dickscheid and Eric Upschult as part of a submission created three years ago. The well-crafted and professional introduction was written by Timo, while Eric provided valuable support for the idea and discussions. I completed the remaining sections and the coding. Ultimately, I persuaded Timo and Eric not to submit the paper, as I was dissatisfied with the quantitative analysis, which lacked clear, strong, and solid theoretical support. 
+
+## References
+<a id="1">[1]</a>
+Mehdi Mirza and Simon Osindero. 
+Conditional Generative Adversarial Nets. 
+ArXiv, 
+Volume abs/1411.1784, 
+2014.
+
 
 
