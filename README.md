@@ -27,6 +27,8 @@ $x_{\Vert}$ and $`G_B(y)_{\Vert}`$, whereas $D_S$ works analogously for the imag
   <img src="https://github.com/keerfish/ZSE-GAN/blob/main/imgs/semi_architecture.jpg" align="center" width="500px"/>
 </p>
 
+## Visual Results
 
+The textural properties of the vertical cross-sections and horizontal sections of the output z-stack are indistinguishable from those of the horizontal sections close to the center of the input stack. The cellular structures are overall consistent.
 
 
