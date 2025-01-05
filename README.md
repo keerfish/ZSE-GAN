@@ -48,7 +48,7 @@ The ZSE-GAN modifies image intensities of the z-stack such that the textural pro
 sections near the top and bottom of the output z-stack are indistinguishable from those of the horizontal sections
 close to the center of the input stack. At the same time, the output does not introduce new cellular structures.
 
-**Note:** <br />
-For a detailed explanation of the principles and implementation, please refer to the [ZSE GAN](https://github.com/keerfish/ZSE-GAN/blob/main/ZSE_GAN.pdf). This method was developed in collaboration with my colleagues Timo Dickscheid and Eric Upschult as part of a submission created three years ago. The well-crafted and professional introduction was written by Timo, while Eric provided significant support for the idea and discussions. I completed the remaining sections and coding. Ultimately, I convinced Timo and Eric to forgo submitting the paper because I was dissatisfied with the quantitative analysis, which lacked strong and solid theoretical support.  
+## Important Information
+For a detailed explanation of the principles and implementation, please refer to the [ZSE GAN](https://github.com/keerfish/ZSE-GAN/blob/main/ZSE_GAN.pdf). This method was developed in collaboration with my colleagues Timo Dickscheid and Eric Upschult as part of a submission created three years ago. The well-crafted and professional introduction was written by Timo, while Eric provided valuable support for the idea and discussions. I completed the remaining sections and the coding. Ultimately, I persuaded Timo and Eric not to submit the paper, as I was dissatisfied with the quantitative analysis, which lacked clear, strong, and solid theoretical support. 
 
 
