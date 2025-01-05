@@ -48,4 +48,7 @@ The ZSE-GAN modifies image intensities of the z-stack such that the textural pro
 sections near the top and bottom of the output z-stack are indistinguishable from those of the horizontal sections
 close to the center of the input stack. At the same time, the output does not introduce new cellular structures.
 
+**Note:** <br />
+For detailed 
+
 
