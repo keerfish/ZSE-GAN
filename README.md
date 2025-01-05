@@ -34,7 +34,14 @@ The textural properties of the vertical cross-sections and horizontal sections o
 
 ### Input Image Stack
 Cross sections of an input image stack $x$:
-### Input Image Volume
+<p align="center">
+  <img src="https://github.com/keerfish/ZSE-GAN/blob/main/imgs/cross_x.jpg" align="center" width="500px"/>
+</p>
+
+### Output Image Volume
 Cross sections of the corresponding output volumetric image $G_S(x)$:
+<p align="center">
+  <img src="https://github.com/keerfish/ZSE-GAN/blob/main/imgs/cross_y.jpg" align="center" width="500px"/>
+</p>
 
 
